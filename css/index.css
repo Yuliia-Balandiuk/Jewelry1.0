@@ -108,11 +108,11 @@ header .banner p {
     width: auto;
     border: none;
 }
-.all-collections .card img {
+.card-list .card img {
     display: block;
-    max-width: 90%;
+    max-width: 80%;
     margin: auto;
-    object-position: 40% 50%;
+   
 }
 .all-collections .card p {
     text-align: center;
@@ -126,6 +126,7 @@ header .banner p {
     max-height: 300px;
     padding-top: 45px;
     padding-bottom: 40px;
+    max-width: 400px;
 
 }
 
