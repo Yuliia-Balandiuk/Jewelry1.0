@@ -97,15 +97,16 @@ header .banner p {
     text-align: center;
 
 }
- .card {
-    border: none;
+ .all-collections .card {
+    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
    
 }
 .all-collections .card {
-    max-width: 500px;;
+    width: auto;
+    border: none;
 }
 .all-collections .card img {
     display: block;
@@ -118,7 +119,6 @@ header .banner p {
     font-size: 22px;
     font-family: Nanum Myeongjo,serif;
     margin: 15px 0;
-
 }
 /*carousel*/
 #brendsCarousel .d-block{
