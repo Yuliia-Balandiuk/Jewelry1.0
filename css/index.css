@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
- :root {
+ 
+:root {
     margin: 0;
     border: 0;
     padding: 0;
     background-color: transparent;
     --main-color: black;
- }
+    font-size: 18px;
+}
+
 .small-image {
     width: 75px;
 }
+
 body {
     max-width: 980px;
     margin: auto;
@@ -32,12 +36,13 @@ body {
 
 header {
     background-image: url(../img/ring-purpule.jpg);
-    min-height: 750px;
+    min-height: 700px;
     background-size: cover;
     background-position: 40% 50%;
     display: flex;
     flex-direction: column;  
 }
+
 header .banner {
     min-height: 400px;
     display: flex;
@@ -47,10 +52,22 @@ header .banner {
     margin-top: 75px;
     margin-left: 30px; 
 }
+
+header .banner h1 {
+    font-family: Nanum Myeongjo,serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
 header .banner p {
     margin-top: 50px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+
 }
+
 header .banner button {
+    margin-top: 80px;
     width:  150px;
     height: 50px;
 }
@@ -66,9 +83,10 @@ header .banner button {
 
 
 /*FORM*/
-footer {
+
+footer #contact-us {
     background-image: url(../img/background-footer.jpg);
-    min-height: 800px;
+    min-height: 750px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -81,4 +99,51 @@ footer {
     width: 75%;
     color: white;
 }
+footer #contact-us h2 {
+    font-family: Nanum Myeongjo,serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+footer #contact-us p {
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 15%;
+}
 
+
+
+.foot .small-image {
+    position: center;
+}
+.foot a {
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+}
+.social {
+   
+}
+.social h3 {
+    font-size: 1.5rem;
+    font-family: Nanum Myeongjo,serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: var(----main-color);
+  
+}
+.fa:hover {
+    opacity: 1;
+}
