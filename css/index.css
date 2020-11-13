@@ -66,19 +66,60 @@ header .banner p {
 
 }
 
-header .banner button {
-  border: 2px solid rgb(255, 42, 100);
-  background-color: rgb(255, 42, 100);
-  color: white;
-  padding: 10px 35px;
-  font-size: 16px;
-  margin-top: 80px;
-  width: 170px;
-  height: 50px;
-  margin-bottom: 20px;
- 
+.first-btn {
+    border: 2px solid rgb(255, 42, 100);
+    background-color: rgb(255, 42, 100);
+    color: white;
+    padding: 10px 35px;
+    font-size: 16px;
+    margin-top: 80px;
+    width: 170px;
+    height: 50px;
+    margin-bottom: 20px;
 }
+.first-btn:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 35px;
+    font-size: 16px;
+    margin-top: 80px;
+    width: 170px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+/*collections*/
 
+.all-collections h2 {
+    font-size: 30px;
+    font-family: Nanum Myeongjo,serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+ .card {
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.all-collections .card {
+    max-width: 500px;;
+}
+.all-collections .card img {
+    display: block;
+    max-width: 90%;
+    margin: auto;
+    object-position: 40% 50%;
+}
+.all-collections .card p {
+    text-align: center;
+    font-size: 22px;
+    font-family: Nanum Myeongjo,serif;
+    margin: 15px 0;
+
+}
 /*carousel*/
 #brendsCarousel .d-block{
     display: flex;
@@ -129,11 +170,22 @@ footer .btn {
   margin: auto;
   margin-bottom: 20px;
 }
-
+.btn:hover{
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 35px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
 .foot .small-image {
     display: block;
     margin: auto;
 }
+
+
 .foot a {
     display: block;
     text-decoration: none;
@@ -163,5 +215,5 @@ footer .btn {
   
 }
 .fa:hover {
-    opacity: 1;
+    color: rgb(255, 42, 100);
 }
