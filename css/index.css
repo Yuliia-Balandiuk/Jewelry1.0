@@ -67,9 +67,16 @@ header .banner p {
 }
 
 header .banner button {
-    margin-top: 80px;
-    width:  150px;
-    height: 50px;
+  border: 2px solid rgb(255, 42, 100);
+  background-color: rgb(255, 42, 100);
+  color: white;
+  padding: 10px 35px;
+  font-size: 16px;
+  margin-top: 80px;
+  width: 170px;
+  height: 50px;
+  margin-bottom: 20px;
+ 
 }
 
 /*carousel*/
@@ -112,10 +119,20 @@ footer #contact-us p {
     padding: 15%;
 }
 
-
+footer .btn {
+  border: 2px solid rgb(255, 42, 100);
+  background-color: rgb(255, 42, 100);
+  color: white;
+  padding: 10px 35px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
 .foot .small-image {
-    position: center;
+    display: block;
+    margin: auto;
 }
 .foot a {
     display: block;
@@ -126,13 +143,14 @@ footer #contact-us p {
     text-align: center;
 }
 .social {
-   
+    display: block;
+    text-align: center;
 }
+
 .social h3 {
     font-size: 1.5rem;
     font-family: Nanum Myeongjo,serif;
     font-weight: 700;
-    text-align: center;
     padding-top: 20px;
 }
 .fa {
