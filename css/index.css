@@ -128,6 +128,10 @@ header .banner p {
     font-family: Nanum Myeongjo,serif;
     margin: 15px 0;
 }
+/*discont*/
+.discont {
+    background-image: url(../img/background-4.jpg);
+}
 /*timer*/
 .timer{
     font-size: 0;
@@ -146,7 +150,6 @@ header .banner p {
     line-height: 70px;
     width: 55px;
     margin: 0 1px;
-    border-radius: 2px;
 }
 .timer_section > div.timer_section_desc{
     display: block;
