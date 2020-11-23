@@ -11,7 +11,7 @@
 }
 
 .small-image {
-    width: 90px;
+    width: 75px;
 }
 
 body {
@@ -97,6 +97,14 @@ header .banner p {
     text-align: center;
 
 }
+.card-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-list .card {
+    max-width: 300px;
+}
  .all-collections .card {
     
     display: flex;
@@ -120,6 +128,59 @@ header .banner p {
     font-family: Nanum Myeongjo,serif;
     margin: 15px 0;
 }
+/*timer*/
+.timer{
+    font-size: 0;
+    text-align: center;
+}
+.timer_section{
+    display: inline-block;
+    vertical-align: top;
+}
+.timer_section > div{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    background: rgb(255, 42, 100);
+    color: #ffffff;
+    line-height: 70px;
+    width: 55px;
+    margin: 0 1px;
+    border-radius: 2px;
+}
+.timer_section > div.timer_section_desc{
+    display: block;
+    background: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+    width: auto;
+    margin: 0;
+}
+.timer_delimetr{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    line-height: 70px;
+    margin: 0 5px;
+}
+@media (max-width: 767px){
+    .timer_section > div{
+        font-size: 30px;
+        width: 30px;
+        line-height: 40px;
+    }
+    .timer_delimetr{
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .timer_section > div.timer_section_desc{
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+</style>
 /*carousel*/
 #brendsCarousel .d-block{
     display: flex;
