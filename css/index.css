@@ -128,10 +128,24 @@ header .banner p {
     font-family: Nanum Myeongjo,serif;
     margin: 15px 0;
 }
-/*discont*/
-.discont {
-    background-image: url(../img/background-4.jpg);
+/*discount*/
+.discounts {
+   background-image: url(../img/background-4.jpg); 
+   min-height: 550px;
+    background-size: cover;
+    background-position: 40% 50%;
+    display: flex;
+    flex-direction: column;
 }
+.discounts h2 {
+    font-size: 35px;
+    font-family: Nanum Myeongjo,serif;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 30px;
+}
+    
+
 /*timer*/
 .timer{
     font-size: 0;
@@ -147,8 +161,8 @@ header .banner p {
     font-size: 50px;
     background: rgb(255, 42, 100);
     color: #ffffff;
-    line-height: 70px;
-    width: 55px;
+    line-height: 60px;
+    width: 40px;
     margin: 0 1px;
 }
 .timer_section > div.timer_section_desc{
