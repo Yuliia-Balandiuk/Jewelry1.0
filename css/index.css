@@ -97,7 +97,7 @@ header .banner p {
 /*collections*/
 
 .all-collections h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: Nanum Myeongjo,serif;
     font-weight: 700;
     text-align: center;
@@ -132,9 +132,44 @@ header .banner p {
 }
 .all-collections .card p {
     text-align: center;
-    font-size: 22px;
+    font-size: 27px;
     font-family: Nanum Myeongjo,serif;
     margin: 15px 0;
+}
+/*prodacts*/
+#products {
+    background-image: url(../img/glass.jpg);
+    min-height: 600px;
+    background-size: cover;
+    background-position: 40% 50%;
+}
+#products h2 {
+    font-size: 50px;
+    font-family: Nanum Myeongjo,serif;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+#products h3 {
+    font-size: 40px;
+    font-family: Nanum Myeongjo,serif;
+    color: white;
+  
+    text-align: center;
+   
+}
+#products p {
+    font-size: 25px;
+    font-family: Montserrat,sans-serif;
+    color: white;
+}
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 #about-us img {
     max-width: 100%;
