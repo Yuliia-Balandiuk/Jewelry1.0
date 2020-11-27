@@ -35,7 +35,7 @@
                     <a class="nav-link" href="#cart">Cart</a>
                 </li>
                 
-                    <a class="carrency" href="currency.html"><img src="img/currency.png" alt="Currency logo"></a>
+                    <a class="carrency" href="currency.html"><img src="img/currency.png" class="money-img alt="Currency logo"></a>
                 
                 </ul>
                 
@@ -45,7 +45,7 @@
 		<div class="banner">
 			<h1>Shine</h1>
 			<p>The best jewelry for special people in your life. Our boutique <br>offers exclusive collections.</p>
-			<button class="first-btn">LEARN MORE</button>
+			<a href="#about-us"><button class="btn-first">LEARN MORE</button></a>
 		</div>
 	</header>
     <main>
@@ -92,46 +92,34 @@
                     <button>Buy now</button>
                </div>
            </article>
-        </section>
+        </section>-->
         <div id="about-us">
-           <h2>About us</h2>
-           <img src="img/ring-1.jpg" alt="Ring photo">
-           <p>Shine Boutique can help make your special moment truly memorable. We offer unique pieces with the best diamonds available.</p>
-           <p>At Shine Boutique we've found a perfect balance between classic diamonds and modern styles. Our craftsmen present the latest trends 
-             in modern design. We can advise you on selecting the best shape, cut, style of the ring for your beloved. If you have a particular ring in mind 
-              or want to work with our craftsmen on a custom design and create something personal, we offer only the best quality.</p>
-           <p>Our services include finding the perfect stone, design, gem-cutting, remodeling, and restoration 
+            <img src="img/ring-1.jpg" class="about-info" alt="Ring photo">
+            <div class="information">
+               <h2>About Us</h2>
+               <p>Shine Boutique can help make your special moment truly memorable. We offer unique pieces with the best diamonds available.</p>
+               <p>At Shine Boutique we've found a perfect balance between classic diamonds and modern styles. Our craftsmen present the latest trends 
+                  in modern design. We can advise you on selecting the best shape, cut, style of the ring for your beloved. If you have a particular ring in mind 
+                  or want to work with our craftsmen on a custom design and create something personal, we offer only the best quality.</p>
+               <p>Our services include finding the perfect stone, design, gem-cutting, remodeling, and restoration 
                of your old jewelry pieces. We work only with high-quality gems that allows us to implement even the
                most incredible ideas. All of our rings have a lifetime warranty, so if anything happens to the ring, just bring it to our workshop.</p>
+            </div>
         </div>
-        <div>
+        <div class="personal-ring">
             <h3>The Beauty of Bespoke</h2>
             <p>Create a truly unique and personal ring with Shine Shop. Our craftsmen will help make your ideas and vision a reality.</p>
-            <button form="data">CONTACT US</button>
+            <a href="#contact-us"><button form="data" class="btn" href="#contact-us">CONTACT US</button></a>
         </div>
-        <div>
-             <div>
-                 <img src="img/ring-2.jpg" alt="Ring photo">
-                 <h2>Sine shope in NY</h2>
-                 <h3>Welcome to the diamond world.</h4>
-                 <p>If you want to see our jewelry collections or to work with a jeweler on a custom ring, come to our boutique in NY. The address is 120 Sutton St, Brooklyn.</p>
-                 <p>For safety reasons, Shine Boutique works only by appointment. Please contact us in advance to plan your visit. Our boutique is fully equipped with everything 
-                 necessary so that you can choose the perfect ring for any occasion or come up with a draft of your future custom ring.</p>
-             </div>
-             <div>
-                <img src="img/ring-11.jpg" alt="Ring photo">
-                 <h2>Shadows and Facets</h2>
-                 <p>“Our shop works only with high-carat gemstones. When you see these shining facets, thin lines, the play of light and shadow, you cannot fall in love with our rings
-                 . We work to make you happy every time you look at your hand.”</p>
-                 <p>German Adams, Founder</p>
-             </div>
-        </div>-->
         <section class = "discounts">
             <h2>Sign Up For Our Newsletter</h2>
             <p>Get a 10% discount on your first order, be the first one to see our new collections.</p>
             <form>
-                <input type="email" placeholder="E-mail*" required name="user-email"><br>
-                <button type="submit">SUBMIT</button>
+                <div class="discounts-form">
+                    <input type="email" class="form-control" placeholder="Enter your e-mail*" required name="user-email"><br>
+                 </div>
+                
+                <button class="btn" type="submit">SUBMIT</button>
             </form>
             <div class="timer" data-finish="2021.01.01 00:00:00">
                 <div class="timer_section">
@@ -159,30 +147,44 @@
                 </div>
             </div>
         </section>
-        <!--<section>
+        <section class="tips"> 
             <h2>Tips to Select a Ring</h2>
-            <div>
-                <img src="img/ring-12.jpg" alt="Ring photo">
-                <h3>Diamond Сolor</h3>
-                <p>The color of a diamond is one of the most important characteristics since it is color that is perceived by human eyes. Some components of visible 
-                light are absorbed inside the diamond, which is caused either by the presence of trace elements or by a feature of the structure of the diamond. 
-                Unabsorbed particles of light form the visible color of the diamond.</p>
+            <div class="tip">
+                <div class="select-ring">
+                    <div>
+                        <img src="img/ring-12.jpg" alt="Ring photo">
+                    </div>
+                    <div >
+                        <h3>Diamond Сolor</h3>
+                        <p>The color of a diamond is one of the most important characteristics since it is color that is perceived by human eyes. Some components of visible 
+                                light are absorbed inside the diamond, which is caused either by the presence of trace elements or by a feature of the structure of the diamond. 
+                                Unabsorbed particles of light form the visible color of the diamond.</p>
+                    </div>
+                </div>
+                <div class="select-ring">
+                    <div>
+                        <img src="img/ring-13.jpg" alt="Ring photo">
+                    </div>
+                    <div >
+                        <h3>Diamond Purity</h3>
+                        <p>Diamond purity defines the transparency, absence or degree of internal or external diamond defects. The purity of a diamond shows how easily light 
+                            can penetrate a diamond, bounce off its edges, refract, and scatter onto multi-colored rays. The attractiveness and durability, and therefore value, 
+                            depends on the purity of a diamond.</p>
+                    </div>
+                </div>
+                <div class="select-ring">
+                    <div>
+                        <img src="img/ring-14.jpg" alt="Ring photo">
+                    </div>
+                    <div >
+                        <h3>Types of Faceting</h3>
+                        <p>Nowadays, three main types of cut are used: diamond cut, old step cut and mixed, which is a combination of the first two types of faceting. 
+                        Various combinations of faceted diamond shapes and cuts form a dozen popular diamond cut shapes. The diamond cutting was created for the optimal 
+                        combination of brilliance and the “play" of light.</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="img/ring-13.jpg" alt="Ring photo">
-                <h3>Diamond Purity</h3>
-                <p>Diamond purity defines the transparency, absence or degree of internal or external diamond defects. The purity of a diamond shows how easily light 
-                can penetrate a diamond, bounce off its edges, refract, and scatter onto multi-colored rays. The attractiveness and durability, and therefore value, 
-                depends on the purity of a diamond.</p>
-            </div>
-            <div>
-                <img src="img/ring-14.jpg" alt="Ring photo">
-                <h3>Types of Faceting</h3>
-                <p>Nowadays, three main types of cut are used: diamond cut, old step cut and mixed, which is a combination of the first two types of faceting. 
-                Various combinations of faceted diamond shapes and cuts form a dozen popular diamond cut shapes. The diamond cutting was created for the optimal 
-                combination of brilliance and the “play" of light.</p>
-            </div>
-        </section>-->
+        </section>
         
         <div id="brendsCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -230,19 +232,24 @@
             </form>
         </div>
         <div class="foot">
-            <img src="img/logo.jpg" class="small-image" alt="Shine shop">
-			<a href="#collections">Collections</a><br>  
-			<a href="#products">Products</a><br> 
-			<a href="#about-us">About us</a><br> 
-			<a href="#contact-us">Contact us</a>
-				
+            <div class="foot-img">
+                <img src="img/logo.jpg" class="small-image" alt="Shine shop">
+            </div>
+            <div class="nav-foot">
+			    <a href="#collections">Collections</a><br>  
+                <a href="#products">Products</a><br> 
+            </div>
+            <div class="nav-foot">
+			    <a href="#about-us">About us</a><br> 
+			    <a href="#contact-us">Contact us</a>
+            </div>
+            <div class="social">
+                <h3>Follow us</h3>
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+                <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            </div>
         </div>
-        <section class="social">
-            <h3>Follow us</h3>
-            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-            <a href="https://www.youtube.com" class="fa fa-youtube"></a>
-            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-        </section>
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
