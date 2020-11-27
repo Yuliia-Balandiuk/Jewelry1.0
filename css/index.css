@@ -165,7 +165,7 @@ header .banner p {
 }
 .personal-ring {
     background-image: url(../img/topaz.jpg);
-    min-height: 600px;
+    min-height: 500px;
     background-size: cover;
     background-position: 40% 50%;
     
@@ -191,11 +191,12 @@ header .banner p {
     color: black;
     padding: 10px 35px;
     font-size: 16px;
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 20px; 
   }
+
+ 
   .personal-ring .btn:hover{
     border: 2px solid white;
     background-color: white;
