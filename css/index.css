@@ -77,6 +77,7 @@ header .banner p {
     padding: 10px 35px;
     font-size: 16px;
     margin-top: 80px;
+    margin-left: 20px;
     width: 170px;
     height: 50px;
     margin-bottom: 20px;
@@ -88,6 +89,7 @@ header .banner p {
     padding: 10px 35px;
     font-size: 16px;
     margin-top: 80px;
+    margin-left: 20px;
     width: 170px;
     height: 50px;
     margin-bottom: 20px;
@@ -124,7 +126,7 @@ header .banner p {
 }
 .card-list .card img {
     display: block;
-    max-width: 80%;
+    max-width: 98%;
     margin: auto;
    
 }
@@ -190,9 +192,9 @@ header .banner p {
     padding: 10px 35px;
     font-size: 16px;
     display: block;
-    margin-left: 20px;
+    margin: auto;
     margin-bottom: 20px;
-    margin-top: 80px;
+    margin-top: 40px;
   }
   .personal-ring .btn:hover{
     border: 2px solid white;
@@ -201,10 +203,11 @@ header .banner p {
     padding: 10px 35px;
     font-size: 16px;
     display: block;
-    margin-left: 20px;
+    margin: auto;
     margin-bottom: 20px;
-    margin-top: 80px;
+    margin-top: 40px;
   }
+  
 /*discount*/
 .discounts {
    background-image: url(../img/background-4.jpg); 
@@ -338,12 +341,7 @@ header .banner p {
         align-items: center;
         grid-template-columns: 1fr 1fr;
     }
-    .select-ring .revers {
-        grid-column-start: 1;
-grid-column-end: 2;
-grid-row-start: 2;
-grid-row-end: 3;
-    }
+    
 }
 
 
