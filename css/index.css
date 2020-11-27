@@ -191,22 +191,22 @@ header .banner p {
     color: black;
     padding: 10px 35px;
     font-size: 16px;
+    display: block;
     margin-top: 80px;
     margin-left: 20px;
     margin-bottom: 20px; 
   }
-
- 
   .personal-ring .btn:hover{
     border: 2px solid white;
     background-color: white;
     color: black;
+    text-decoration: none;
     padding: 10px 35px;
     font-size: 16px;
     display: block;
-    margin: auto;
+    margin-top: 80px;
+    margin-left: 20px;
     margin-bottom: 20px;
-    margin-top: 40px;
   }
   
 /*discount*/
@@ -217,6 +217,7 @@ header .banner p {
     background-position: 40% 50%;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 .discounts-form {
     margin-top: 40px;
@@ -340,9 +341,11 @@ header .banner p {
     .select-ring {
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr; 
     }
-    
+   .revers {
+    grid-area: 1 / 2;
+   }  
 }
 
 
