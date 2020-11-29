@@ -3,18 +3,18 @@
         "id": "1",
         "title": "Gold ring",
         "image": "ring-8.jpg",
-        "price": 99.99
+        "price": 99
     },
     {
         "id": "2",
         "title": "Silver ring",
         "image": "ring-9.jpg",
-        "price": 59.99
+        "price": 59
     },
     {
         "id": "3",
         "title": "Imitation jewelry",
         "image": "ring-10.jpg",
-        "price": 24.99
+        "price": 24
     }
 ]

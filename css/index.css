@@ -9,20 +9,17 @@
     --main-color: black;
     font-size: 18px;
 }
-
 .small-image {
     width: 75px;
 }
 .money-img {
     width: 40px;
 }
-
 body {
     max-width: 980px;
     margin: auto;
     background-color: rgb(240, 243, 244);
 }
-
 .navbar-nav {
     margin-left: 50%;
 }
@@ -37,7 +34,6 @@ body {
         flex: 1;
     }
 }
-
 header {
     background-image: url(../img/ring-purpule.jpg);
     min-height: 700px;
@@ -46,7 +42,6 @@ header {
     display: flex;
     flex-direction: column;  
 }
-
 header .banner {
     min-height: 400px;
     display: flex;
@@ -56,20 +51,17 @@ header .banner {
     margin-top: 75px;
     margin-left: 30px; 
 }
-
 header .banner h1 {
     font-family: Nanum Myeongjo,serif;
     font-size: 4rem;
     font-weight: 700;
 }
-
 header .banner p {
     margin-top: 50px;
     font-family: Montserrat,sans-serif;
     font-weight: 400;
 
 }
-
 .banner .btn-first {
     border: 2px solid rgb(255, 42, 100);
     background-color: rgb(255, 42, 100);
@@ -96,8 +88,33 @@ header .banner p {
     height: 50px;
     margin-bottom: 20px;
 }
-/*collections*/
 
+/*modal wind*/
+.modal-footer .btn-close, .order {
+    border: 2px solid rgb(255, 42, 100);
+    background-color: rgb(255, 42, 100);
+    color: white;
+    padding: 10px 35px;
+    font-size: 16px;
+    margin-top: 80px;
+    border-radius: 0;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.modal-footer .btn-close, .order:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 35px;
+    font-size: 16px;
+    margin-top: 80px;
+    border-radius: 0;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+/*collections*/
 .all-collections h2 {
     font-size: 40px;
     font-family: Nanum Myeongjo,serif;
@@ -116,13 +133,9 @@ header .banner p {
     background-color: rgb(240, 243, 244);
 }
  .all-collections .card {
-    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   
-}
-.all-collections .card {
     width: auto;
     border: none;
 }
@@ -138,40 +151,57 @@ header .banner p {
     font-family: Nanum Myeongjo,serif;
     margin: 15px 0;
 }
+
 /*prodacts*/
 #products {
     background-image: url(../img/glass.jpg);
-    min-height: 600px;
+    max-height: 700px;
     background-size: cover;
     background-position: 40% 50%;
 }
-#products h2 {
-    font-size: 50px;
-    font-family: Nanum Myeongjo,serif;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 50px;
-    padding-top: 30px;
-}
-#products h3 {
-    font-size: 40px;
-    font-family: Nanum Myeongjo,serif;
-    color: white;
-  
-    text-align: center;
-   
-}
-#products p {
-    font-size: 25px;
-    font-family: Montserrat,sans-serif;
-    color: white;
-}
 .products-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 30px;
+}
+.products-container .product {
+    max-height: 100%;
+}
+#products .card-img-top {
+    display: block;
+    max-width: 98%;
+    margin: auto;
+}
+#products h4 {
+    font-size: 20px;
+    font-family: Nanum Myeongjo,serif;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+#products .buy {
+    border: 2px solid rgb(255, 42, 100);
+    background-color: rgb(255, 42, 100);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#products .buy:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
 }
 #about-us img {
     max-width: 100%;
@@ -222,7 +252,7 @@ header .banner p {
     padding-top: 50px;
     color: white;
 }
-.personal-ring .btn {
+.personal-ring .personal-btn {
     border: 2px solid rgb(255, 42, 100);;
     background-color: rgb(255, 42, 100);;
     color: black;
@@ -233,7 +263,7 @@ header .banner p {
     margin-left: 20px;
     margin-bottom: 20px; 
   }
-  .personal-ring .btn:hover{
+  .personal-ring .personal-btn:hover{
     border: 2px solid white;
     background-color: white;
     color: black;
@@ -244,7 +274,6 @@ header .banner p {
     margin-left: 20px;
     margin-bottom: 20px; 
   }
-  
 /*discount*/
 .discounts {
    background-image: url(../img/background-4.jpg); 
@@ -272,7 +301,7 @@ header .banner p {
     text-align: center;
     padding-top: 30px;
 }
-.discounts .btn {
+.discounts .btn-discount {
     border: 2px solid black;
     background-color: black;
     color: white;
@@ -282,7 +311,7 @@ header .banner p {
     margin: auto;
     margin-bottom: 20px;
   }
-  .discounts .btn:hover{
+  .discounts .btn-discount:hover{
     border: 2px solid rgb(255, 42, 100);
     background-color: rgb(255, 42, 100);
     color: white;
@@ -292,8 +321,6 @@ header .banner p {
     margin: auto;
     margin-bottom: 20px;
   }
-    
-
 /*timer*/
 .timer{
     font-size: 0;
@@ -384,8 +411,6 @@ header .banner p {
     grid-area: 1 / 2;
    }  
 }
-
-
 /*carousel*/
 #brendsCarousel .d-block{
     display: flex;
@@ -393,12 +418,8 @@ header .banner p {
     padding-top: 45px;
     padding-bottom: 40px;
     max-width: 400px;
-
 }
-
-
 /*FORM*/
-
 footer #contact-us {
     background-image: url(../img/background-footer.jpg);
     min-height: 750px;
@@ -432,8 +453,7 @@ footer #contact-us p {
         padding-top: 30px;
     }
 }
-
-footer .btn {
+footer .btn-end {
   border: 2px solid rgb(255, 42, 100);
   background-color: rgb(255, 42, 100);
   color: white;
@@ -443,7 +463,7 @@ footer .btn {
   margin: auto;
   margin-bottom: 20px;
 }
-.btn:hover{
+.btn-end:hover{
   border: 2px solid black;
   background-color: black;
   color: white;
@@ -460,8 +480,6 @@ footer .btn {
     display: block;
     margin: auto;
 }
-
-
 .nav-foot a {
     display: block;
     text-decoration: none;
