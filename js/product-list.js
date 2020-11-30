@@ -22,9 +22,7 @@ class ProductList {
                           alt="${product.title}">
                       <div class="card-body d-flex flex-column">
                         <h4 class="card-title">${product.title}</h4>
-                        
                         <div class="d-flex justify-content-around">
-                        
                           <button class="btn btn-primary buy" data-id="${product.id}">
                             $${product.price} - Buy
                           </button>
@@ -52,16 +50,7 @@ class ProductList {
             this.handleProductBuyClick(event)
           )
         );
-      document.querySelector('.sort-asc').addEventListener('click', async () => {
-          this.sortDirection = 'ascending';
-          await this.renderProducts();
-          this.addEventListeners();
-      });
-      document.querySelector('.sort-desc').addEventListener('click', async () => {
-          this.sortDirection = 'descending';
-          await this.renderProducts();
-          this.addEventListeners();
-      });
+      
     }
     async handleProductInfoClick(event) {
       const button = event.target; // Button that triggered the modal
