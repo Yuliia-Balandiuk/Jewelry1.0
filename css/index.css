@@ -155,7 +155,7 @@ header .banner p {
 /*prodacts*/
 #products {
     background-image: url(../img/glass.jpg);
-    max-height: 700px;
+    max-height: auto;
     background-size: cover;
     background-position: 40% 50%;
 }
