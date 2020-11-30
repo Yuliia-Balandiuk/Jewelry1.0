@@ -164,14 +164,18 @@ header .banner p {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 30px;
+    padding: 0;
 }
 .products-container .product {
     max-height: 100%;
+    border-radius: 0;
+    border: none;
 }
 #products .card-img-top {
     display: block;
-    max-width: 98%;
-    margin: auto;
+    max-width: 100%;
+    margin: none;
+    border-radius: 0;
 }
 #products h2 {
     font-size: 45px;
