@@ -49,7 +49,7 @@ function timer(f_time) {
     setTimeout(timer_go, 0);
 }
 
-document.ready(function() {
+$(document).ready(function() {
     let time = $(".timer").attr("data-finish");
-    timer(time);
+    timer(new Date(time));
 })
