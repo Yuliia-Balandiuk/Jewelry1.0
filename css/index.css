@@ -173,6 +173,16 @@ header .banner p {
     max-width: 98%;
     margin: auto;
 }
+#products h2 {
+    font-size: 45px;
+    font-family: Nanum Myeongjo,serif;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
 #products h4 {
     font-size: 20px;
     font-family: Nanum Myeongjo,serif;
