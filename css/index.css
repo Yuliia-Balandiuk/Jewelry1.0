@@ -1,471 +1,472 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Myeongjo:wght@400;700;800&display=swap");
 
- 
 :root {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    background-color: rgb(240, 243, 244);
-    --main-color: black;
-    font-size: 18px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: rgb(240, 243, 244);
+  --main-color: black;
+  font-size: 18px;
 }
 .small-image {
-    width: 75px;
+  width: 75px;
+  border-radius: 50%;
 }
 .money-img {
-    width: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 body {
-    max-width: 980px;
-    margin: auto;
-    background-color: rgb(240, 243, 244);
+  max-width: 980px;
+  margin: auto;
+  background-color: rgb(240, 243, 244);
 }
 .navbar-nav {
-    margin-left: 50%;
+  margin-left: 50%;
 }
 @media (min-width: 769px) {
-    header nav {
-        display: flex;
-    } 
-    header nav .menu-items {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex: 1;
-    }
+  header nav {
+    display: flex;
+  }
+  header nav .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+  }
 }
 header {
-    background-image: url(../img/ring-purpule.jpg);
-    min-height: 700px;
-    background-size: cover;
-    background-position: 40% 50%;
-    display: flex;
-    flex-direction: column;  
+  background-image: url(../img/ring-purpule.jpg);
+  min-height: 700px;
+  background-size: cover;
+  background-position: 40% 50%;
+  display: flex;
+  flex-direction: column;
 }
 header .banner {
-    min-height: 400px;
-    display: flex;
-    flex-direction: column; 
-    align-self: flex-start ;
-    justify-content: space-evenly; 
-    margin-top: 75px;
-    margin-left: 30px; 
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-content: space-evenly;
+  margin-top: 75px;
+  margin-left: 30px;
 }
 header .banner h1 {
-    font-family: Nanum Myeongjo,serif;
-    font-size: 4rem;
-    font-weight: 700;
+  font-family: Nanum Myeongjo, serif;
+  font-size: 4rem;
+  font-weight: 700;
 }
 header .banner p {
-    margin-top: 50px;
-    font-family: Montserrat,sans-serif;
-    font-weight: 400;
-
+  margin-top: 50px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
 }
 .banner .btn-first {
-    border: 2px solid rgb(255, 42, 100);
-    background-color: rgb(255, 42, 100);
-    color: white;
-    padding: 10px 35px;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 80px;
-    margin-left: 20px;
-    width: 170px;
-    height: 50px;
-    margin-bottom: 20px;
+  border: 2px solid rgb(255, 42, 100);
+  background-color: rgb(255, 42, 100);
+  color: white;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 80px;
+  margin-left: 20px;
+  width: 170px;
+  height: 50px;
+  margin-bottom: 20px;
 }
 .banner .btn-first:hover {
-    border: 2px solid black;
-    background-color: black;
-    color: white;
-    padding: 10px 35px;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 80px;
-    margin-left: 20px;
-    width: 170px;
-    height: 50px;
-    margin-bottom: 20px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 80px;
+  margin-left: 20px;
+  width: 170px;
+  height: 50px;
+  margin-bottom: 20px;
 }
 
 /*modal wind*/
-.modal-footer .btn-close, .order {
-    border: 2px solid rgb(255, 42, 100);
-    background-color: rgb(255, 42, 100);
-    color: white;
-    padding: 10px 35px;
-    font-size: 16px;
-    margin-top: 80px;
-    border-radius: 0;
-    width: 100px;
-    height: 50px;
-    margin-bottom: 20px;
+.modal-footer .btn-close,
+.order {
+  border: 2px solid rgb(255, 42, 100);
+  background-color: rgb(255, 42, 100);
+  color: white;
+  padding: 10px 35px;
+  font-size: 16px;
+  margin-top: 80px;
+  border-radius: 0;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
 }
-.modal-footer .btn-close, .order:hover {
-    border: 2px solid black;
-    background-color: black;
-    color: white;
-    padding: 10px 35px;
-    font-size: 16px;
-    margin-top: 80px;
-    border-radius: 0;
-    width: 100px;
-    height: 50px;
-    margin-bottom: 20px;
+.modal-footer .btn-close,
+.order:hover {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 35px;
+  font-size: 16px;
+  margin-top: 80px;
+  border-radius: 0;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
 }
 /*collections*/
 .all-collections h2 {
-    font-size: 40px;
-    font-family: Nanum Myeongjo,serif;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 40px;
+  font-size: 40px;
+  font-family: Nanum Myeongjo, serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
 }
 .card-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 .card-list .card {
-    max-width: 300px;
-    background-color: rgb(240, 243, 244);
+  max-width: 300px;
+  background-color: rgb(240, 243, 244);
 }
- .all-collections .card {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: auto;
-    border: none;
+.all-collections .card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+  border: none;
 }
 .card-list .card img {
-    display: block;
-    max-width: 98%;
-    margin: auto;
-   
+  display: block;
+  max-width: 98%;
+  margin: auto;
 }
 .all-collections .card p {
-    text-align: center;
-    font-size: 27px;
-    font-family: Nanum Myeongjo,serif;
-    margin: 15px 0;
+  text-align: center;
+  font-size: 27px;
+  font-family: Nanum Myeongjo, serif;
+  margin: 15px 0;
 }
 
 /*prodacts*/
 #products {
-    background-image: url(../img/glass.jpg);
-    max-height: auto;
-    background-size: cover;
-    background-position: 40% 50%;
+  background-image: url(../img/glass.jpg);
+  max-height: auto;
+  background-size: cover;
+  background-position: 40% 50%;
 }
 .products-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 0;
 }
 .products-container .product {
-    max-height: 100%;
-    border-radius: 0;
-    border: none;
+  max-height: 100%;
+  border-radius: 0;
+  border: none;
 }
 #products .card-img-top {
-    display: block;
-    max-width: 100%;
-    margin: none;
-    border-radius: 0;
+  display: block;
+  max-width: 100%;
+  margin: none;
+  border-radius: 0;
 }
 #products h2 {
-    font-size: 45px;
-    font-family: Nanum Myeongjo,serif;
-    color: white;
-    font-weight: 700;
-    margin-top: 20px;
-    padding-top: 30px;
-    text-align: center;
-    margin-top: 10px;
+  font-size: 45px;
+  font-family: Nanum Myeongjo, serif;
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+  padding-top: 30px;
+  text-align: center;
+  margin-top: 10px;
 }
 #products h4 {
-    font-size: 20px;
-    font-family: Nanum Myeongjo,serif;
-    color: black;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 10px;
+  font-size: 20px;
+  font-family: Nanum Myeongjo, serif;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
 }
 #products .buy {
-    border: 2px solid rgb(255, 42, 100);
-    background-color: rgb(255, 42, 100);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 0;
-    font-size: 16px;
-    width: 150px;
-    height: 50px;
-    margin-bottom: 20px;
+  border: 2px solid rgb(255, 42, 100);
+  background-color: rgb(255, 42, 100);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0;
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
 }
 #products .buy:hover {
-    border: 2px solid black;
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 0;
-    font-size: 16px;
-    width: 150px;
-    height: 50px;
-    margin-bottom: 20px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0;
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
 }
 #about-us img {
-    max-width: 100%;
-    display: block;
-    margin: auto;
+  max-width: 100%;
+  display: block;
+  margin: auto;
 }
 #about-us h2 {
-    font-family: Nanum Myeongjo,serif;
-    font-size: 35px;
-    margin-left: 10px;
-    margin-top: 20px;
-    font-weight: bold;
+  font-family: Nanum Myeongjo, serif;
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight: bold;
 }
 #about-us p {
-    font-family: Montserrat,sans-serif;
-    font-size: 14px;
-    margin-left: 10px;
-    margin-top: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 @media (min-width: 769px) {
-    #about-us {
-        display: flex;
-        margin: auto;
-    } 
-    #about-us img {
-        max-width: 55%;
-    }
+  #about-us {
+    display: flex;
+    margin: auto;
+  }
+  #about-us img {
+    max-width: 55%;
+  }
 }
 .personal-ring {
-    background-image: url(../img/topaz.jpg);
-    min-height: 500px;
-    background-size: cover;
-    background-position: 40% 50%;
-    padding-bottom: 10px;
+  background-image: url(../img/topaz.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-position: 40% 50%;
+  padding-bottom: 10px;
 }
 .personal-ring h3 {
-    font-family: Nanum Myeongjo,serif;
-    font-size: 70px;
-    margin-left: 20px;
-    padding-top: 50px;
-    font-weight: 800;
-    color: white;
+  font-family: Nanum Myeongjo, serif;
+  font-size: 70px;
+  margin-left: 20px;
+  padding-top: 50px;
+  font-weight: 800;
+  color: white;
 }
 .personal-ring p {
-    font-family: Montserrat,sans-serif;
-    font-size: 18px;
-    margin-left: 20px;
-    padding-top: 50px;
-    color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+  padding-top: 50px;
+  color: white;
 }
 .personal-ring .personal-btn {
-    border: 2px solid rgb(255, 42, 100);;
-    background-color: rgb(255, 42, 100);;
-    color: black;
-    padding: 10px 35px;
-    font-size: 16px;
-    display: block;
-    margin-top: 60px;
-    margin-left: 20px;
-    margin-bottom: 20px; 
-  }
-  .personal-ring .personal-btn:hover{
-    border: 2px solid white;
-    background-color: white;
-    color: black;
-    padding: 10px 35px;
-    font-size: 16px;
-    display: block;
-    margin-top: 60px;
-    margin-left: 20px;
-    margin-bottom: 20px; 
-  }
+  border: 2px solid rgb(255, 42, 100);
+  background-color: rgb(255, 42, 100);
+  color: black;
+  padding: 10px 35px;
+  font-size: 16px;
+  display: block;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.personal-ring .personal-btn:hover {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  padding: 10px 35px;
+  font-size: 16px;
+  display: block;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 /*discount*/
 .discounts {
-   background-image: url(../img/background-4.jpg); 
-   min-height: 550px;
-    background-size: cover;
-    background-position: 40% 50%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    padding-bottom: 20px;
+  background-image: url(../img/background-4.jpg);
+  min-height: 550px;
+  background-size: cover;
+  background-position: 40% 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 .discounts-form {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 .discounts h2 {
-    font-size: 40px;
-    font-family: Nanum Myeongjo,serif;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 30px;
+  font-size: 40px;
+  font-family: Nanum Myeongjo, serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
 }
 .discounts p {
-    font-size: 18px;
-    font-family: Montserrat,sans-serif;
-    text-align: center;
-    padding-top: 30px;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  padding-top: 30px;
 }
 .discounts .btn-discount {
-    border: 2px solid black;
-    background-color: black;
-    color: white;
-    padding: 10px 35px;
-    font-size: 16px;
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-  .discounts .btn-discount:hover{
-    border: 2px solid rgb(255, 42, 100);
-    background-color: rgb(255, 42, 100);
-    color: white;
-    padding: 10px 35px;
-    font-size: 16px;
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-  }
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 35px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.discounts .btn-discount:hover {
+  border: 2px solid rgb(255, 42, 100);
+  background-color: rgb(255, 42, 100);
+  color: white;
+  padding: 10px 35px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
 /*timer*/
-.timer{
-    font-size: 0;
-    text-align: center;
-    margin-top: 50px;
+.timer {
+  font-size: 0;
+  text-align: center;
+  margin-top: 50px;
 }
-.timer_section{
-    display: inline-block;
-    vertical-align: top;
+.timer_section {
+  display: inline-block;
+  vertical-align: top;
 }
-.timer_section > div{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 50px;
-    background: rgb(255, 42, 100);
-    color: #ffffff;
-    line-height: 60px;
-    width: 40px;
-    margin: 0 1px;
+.timer_section > div {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 50px;
+  background: rgb(255, 42, 100);
+  color: #ffffff;
+  line-height: 60px;
+  width: 40px;
+  margin: 0 1px;
 }
-.timer_section > div.timer_section_desc{
-    display: block;
-    background: none;
-    color: inherit;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 30px;
-    width: auto;
-    margin: 0;
+.timer_section > div.timer_section_desc {
+  display: block;
+  background: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 30px;
+  width: auto;
+  margin: 0;
 }
-.timer_delimetr{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 50px;
-    line-height: 70px;
-    margin: 0 5px;
+.timer_delimetr {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 50px;
+  line-height: 70px;
+  margin: 0 5px;
 }
-@media (max-width: 767px){
-    .timer_section > div{
-        font-size: 30px;
-        width: 30px;
-        line-height: 40px;
-    }
-    .timer_delimetr{
-        line-height: 40px;
-        font-size: 30px;
-    }
-    .timer_section > div.timer_section_desc{
-        font-size: 14px;
-        line-height: 26px;
-    }
+@media (max-width: 767px) {
+  .timer_section > div {
+    font-size: 30px;
+    width: 30px;
+    line-height: 40px;
+  }
+  .timer_delimetr {
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .timer_section > div.timer_section_desc {
+    font-size: 14px;
+    line-height: 26px;
+  }
 }
 /*tips*/
 .tips h2 {
-    font-size: 30px;
-    font-family: Nanum Myeongjo,serif;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 30px;
+  font-size: 30px;
+  font-family: Nanum Myeongjo, serif;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px;
 }
 .tips img {
-    max-width: 90%;
-    padding-top: 30px;
-    display: block;
-    margin: auto;
+  max-width: 90%;
+  padding-top: 30px;
+  display: block;
+  margin: auto;
 }
 .tips h3 {
-    font-size: 20px;
-    font-family: Nanum Myeongjo,serif;
-    font-weight: bold;
-    padding-top: 30px;
-    padding-left: 20px;
+  font-size: 20px;
+  font-family: Nanum Myeongjo, serif;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 .tips p {
-    font-size: 16px;
-    font-family: Montserrat,sans-serif;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media (min-width: 767px) {
-    .select-ring {
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr 1fr; 
-    }
-   .revers {
+  .select-ring {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  .revers {
     grid-area: 1 / 2;
-   }  
+  }
 }
 /*carousel*/
-#brendsCarousel .d-block{
-    display: flex;
-    max-height: 300px;
-    padding-top: 45px;
-    padding-bottom: 40px;
-    max-width: 400px;
+#brendsCarousel .d-block {
+  display: flex;
+  max-height: 300px;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  max-width: 400px;
 }
 /*FORM*/
 footer #contact-us {
-    background-image: url(../img/background-footer.jpg);
-    min-height: 750px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
+  background-image: url(../img/background-footer.jpg);
+  min-height: 750px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .form-control {
-    margin: auto;
-    display: block;
-    width: 75%;
-    color: white;
+  margin: auto;
+  display: block;
+  width: 75%;
+  color: white;
 }
 footer #contact-us h2 {
-    font-family: Nanum Myeongjo,serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: center;
+  font-family: Nanum Myeongjo, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
 }
 footer #contact-us p {
-    font-family: Montserrat,sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 15%;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 15%;
 }
 @media (min-width: 769px) {
-    footer #contact-us {
-        margin-top: 20px;
-        padding-top: 30px;
-    }
+  footer #contact-us {
+    margin-top: 20px;
+    padding-top: 30px;
+  }
 }
 footer .btn-end {
   border: 2px solid rgb(255, 42, 100);
@@ -477,7 +478,7 @@ footer .btn-end {
   margin: auto;
   margin-bottom: 20px;
 }
-.btn-end:hover{
+.btn-end:hover {
   border: 2px solid black;
   background-color: black;
   color: white;
@@ -487,31 +488,33 @@ footer .btn-end {
   margin: auto;
   margin-bottom: 20px;
 }
-.foot-img, .nav-foot {
-    margin-top: 20px;
+.foot-img,
+.nav-foot {
+  margin-top: 20px;
+  border-radius: 50%;
 }
 .foot-img .small-image {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 .nav-foot a {
-    display: block;
-    text-decoration: none;
-    color: var(--main-color);
-    font-size: 16px;
-    font-family: Montserrat,sans-serif;
-    text-align: center;
+  display: block;
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
 }
 .social {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .social h3 {
-    font-size: 1.5rem;
-    font-family: Nanum Myeongjo,serif;
-    font-weight: 700;
-    padding-top: 20px;
+  font-size: 1.5rem;
+  font-family: Nanum Myeongjo, serif;
+  font-weight: 700;
+  padding-top: 20px;
 }
 .fa {
   padding: 20px;
@@ -520,22 +523,20 @@ footer .btn-end {
   text-decoration: none;
   margin: 5px 2px;
   color: var(----main-color);
-  
 }
 .fa:hover {
-    color: rgb(255, 42, 100);
+  color: rgb(255, 42, 100);
 }
 @media (min-width: 769px) {
-    .foot {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } 
-    header nav .menu-items {
-        display: flex;
-        flex-direction: column;
-       
-        justify-content: space-around;
-        
-    }
+  .foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  header nav .menu-items {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+  }
 }
